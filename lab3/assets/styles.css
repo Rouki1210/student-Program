@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root{
+    --text-color: rgb(26, 2, 238);
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: 50px auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.discordapp.com/attachments/858767853266927647/1159719733579497582/image.png?ex=65320c2b&is=651f972b&hm=9a1ee3568df16914d3ba318a8e499e33938e2391d85846071c4283fa60ca0304&);
+}
+
+.img-background{
+    background-color: black;
+}   
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.social i{
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+.social i:hover{
+    opacity: 0.7;
+}
+
+.text-heading{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    color: var(--text-color);
+    font-size: 25px;
+}
+
+.text-heading i{
+    color: orangered;
+    padding: 10px;
+}
+
+.main{
+    margin-top: 250px;
+    padding-left: 80px ;
+}
+
+.summit{
+    position: absolute;
+    padding-left: 15px;
+}
+
+.content{
+    color: rgb(26, 2, 238);
+    margin: 20px;
+}
+
+.content p{
+    font-size: 18px;
+    margin: 5px;
+    padding-left: 8px;
+}
+
+.content h1{
+    font-size: 60px;
+    margin: 5px;
+    
+}
+
+.content h2{
+    font-size: 45px;
+    margin: 5px;
+}
+
+.content h3{
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.input-email{
+    width: 500px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 50px;
+    border-color: rgb(201, 196, 196) transparent rgb(201, 196, 196) rgb(201, 196, 196);
+    padding-inline-start: 20px;
+}
+
+.btn{
+    width: 110px;
+    height: 45px;
+    border-radius: 50px;
+    border: solid 1px transparent;
+    background-color: rgb(226, 27, 60);
+    color: white;
+    margin-left: -40px;
+}
+
+.btn:hover{
+    background-color: rgb(12, 34, 235);
+    color: black;
+}
+
+

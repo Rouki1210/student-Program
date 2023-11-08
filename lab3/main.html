@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="container">
+    
+        <div class="header">
+            <p class="text-heading"><i class="fa-solid fa-cloud-bolt"></i>BD.weather</p>
+            <div class="social">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram "></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="content">
+                <p>Coming Soon</p>
+                <h1>Get Notified</h1>
+                <h2>when we</h2>
+                <h3>launch.</h3>
+            </div>
+            <p style="font-size: 30px; line-height: 2; margin-top: 10px; margin-bottom: 10px;">
+                <span id="launch_counter" style="padding-left: 30px; color: white;">00:00:00</span>
+                <button style="background: none; border: none;" onclick="updateCounter()">
+                    <img style="width: 20px; height: auto; display: block; padding-top: 10px;" src="https://cdn0.iconfinder.com/data/icons/glyphpack/41/refresh-512.png">
+                </button>
+            </p>
+            <div class="summit">
+                <input type="email" placeholder="Enter your email" class="input-email">
+                <button class="btn" onclick="updateCounter()">Notify Me</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
