@@ -1,8 +1,8 @@
 class Student:
-    def __init__(self, id, name, age):
+    def __init__(self, id, name, grade):
         self.__id = id
         self.__name = name
-        self.__age = age
+        self.__grade = grade
     
     @property
     def id(self):
@@ -13,16 +13,16 @@ class Student:
         return self.__name
     
     @property
-    def age(self):
-        return self.__age
+    def grade(self):
+        return self.__grade
     
     @name .setter
     def name(self, name):
         self.__name = name
         
-    @age .setter
-    def age(self, age):
-        self.__age = age
+    @grade .setter
+    def grade(self, grade):
+        self.__grade = grade
         
     def show_info(self):
         print('Id: {}  Name: {}  Age: {}'.format(self.__id, self.__name, self.__age))
